@@ -1,12 +1,14 @@
-<script>
-
+<script setup>
+import Navbar from "./components/"
 
 </script>
 
 <template>
-<main>
+    <v-app></v-app>
+    <Navbar/>
+<v-main>
 <router-view></router-view>
-</main>
-    
+</v-main>
+   <v-app/> 
 </template>
 
