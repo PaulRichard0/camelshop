@@ -7,9 +7,7 @@ body {
 
     width: 1000px;
     margin: 0 auto;
-    padding: 0 20px 20px 20px;
-    background-color: blue;
-    background-image: url(/public/Images/_.jpeg);   
+    padding: 0 20px 20px 20px;   
 }
 
 html {

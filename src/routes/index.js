@@ -1,11 +1,13 @@
 import {createRouter, createWebHistory} from 'vue-router'
 
 import Homepage from "./../components/Homepage.vue"
-import products from "./../components/Products.vue"
+import products from "../components/Book.vue"
 import Aboutus from "./../components/aboutus.vue"
 import Contactus from "./../components/Contactus.vue"
-import Cart from "./../components/Cart.vue"
+import Cart from "../components/Yourbookings.vue"
 import Servicesoffered from "./../components/Servicesoffered.vue"
+import Book from '@/store/modules/Book'
+import Yourbooking from '@/store/modules/Yourbooking'
 const routes = [
     {
       path: '/',
@@ -13,14 +15,14 @@ const routes = [
       component: Homepage,
     },
     {
-        path: '/products',
-        name: 'products',
-        component: products,
+        path: '/Book',
+        name: 'Book',
+        component: Book,
     },
     {
-        path: '/cart',
-        name: 'cart',
-        component: Cart,
+        path: '/Yourbooking',
+        name: 'Yourbooking',
+        component: Yourbooking,
     },
     
     {

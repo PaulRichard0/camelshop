@@ -6,10 +6,10 @@
   </template>
 
   <v-app-bar-title>Application Bar</v-app-bar-title>
-  <v-btn to ="/">Home</v-btn>
-  <v-btn to ="/Products">Products</v-btn>
+  <v-btn to ="/">Homepage</v-btn>
+  <v-btn to ="/BOOK">BOOK</v-btn>
   <v-btn to ="/Contactus">Contactus</v-btn>
-  <v-btn to ="/Cart">Cart</v-btn>
+  <v-btn to ="/Yourbooking">Yourbooking</v-btn>
   <v-btn to ="/Servicesoffered">Services offered</v-btn>
 </v-app-bar>
 </template>
